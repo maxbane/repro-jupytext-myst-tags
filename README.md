@@ -14,7 +14,7 @@ cat ./example.md
 ```
 
 The `example.ipynb` file in this repository contains a code cell and a markdown cell.
-The markdown cell has the tag `"remove-cell"`. You can verify this by inspecting the
+The code cell has the tag `"remove-cell"`. You can verify this by inspecting the
 json or by loading the ipynb file in a jupyter client.
 
 However, when jupytext converts this notebook to MyST, the code cell's tag is lost. The
