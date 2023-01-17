@@ -1,5 +1,4 @@
-Reproducible example: jupytext fails to preserve tags when converting from ipynb to
-MyST.
+# Reproducible example: jupytext fails to preserve tags when outputting MyST.
 
 To reproduce, just run these commands (as of 2022-01-17), or run `repro.sh`,
 which does the same thing:
